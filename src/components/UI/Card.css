@@ -1,0 +1,44 @@
+/* .card {
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+} */
+
+/* Improved CSS for .card */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Increased shadow for depth */
+  background-color: #ffffff; /* Set a background color for better contrast */
+  padding: 1.5rem; /* Increased padding for better spacing */
+  transition: transform 0.2s ease, box-shadow 0.2s ease; /* Added smooth transition */
+}
+
+/* Hover effect for .card */
+.card:hover {
+  transform: translateY(
+    -4px
+  ); /* Slightly lift the card on hover for an interactive effect */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35); /* Enhanced shadow on hover for depth */
+}
+
+/* Focus effect for .card */
+.card:focus {
+  outline: none; /* Remove default focus outline for a cleaner look */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35); /* Enhanced shadow on focus */
+}
+
+/* Improved CSS for .card content */
+.card-content {
+  color: #333333; /* Darkened the text color for better readability */
+}
+
+/* Improved CSS for .card content links */
+.card-content a {
+  color: #40005d; /* Adjusted link color to match the theme */
+  text-decoration: none;
+  transition: color 0.2s ease; /* Added smooth transition for links */
+}
+
+/* Hover effect for .card content links */
+.card-content a:hover {
+  color: #510674; /* Changed link color on hover for better feedback */
+}
